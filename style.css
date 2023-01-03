@@ -1,0 +1,63 @@
+#wrapper{
+    margin-top: 20px;
+    text-align: center;
+    padding: 3rem;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10.9px);
+    -webkit-backdrop-filter: blur(10.9px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+#wrapper-p{
+    text-align: centre;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(38deg, #23ae8a, #ca3f16, #2b3f39, #6b0e70);
+    background-size: 800% 800%;
+    
+    -webkit-animation: Avika 30s ease infinite;
+    -moz-animation: Avika 30s ease infinite;
+    animation: Avika 30s ease infinite;
+    }
+    
+    @-webkit-keyframes Avika {
+        0%{background-position:81% 0%}
+        50%{background-position:20% 100%}
+        100%{background-position:81% 0%}
+    }
+    @-moz-keyframes Avika {
+        0%{background-position:81% 0%}
+        50%{background-position:20% 100%}
+        100%{background-position:81% 0%}
+    }
+    @keyframes Avika {
+        0%{background-position:81% 0%}
+        50%{background-position:20% 100%}
+        100%{background-position:81% 0%}
+    }
+#input{
+    border: solid 0px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+
+}
+#image{
+    margin-top: 10px;
+}
+#button{
+    text-align: center;
+    border-radius: 3;
+    gap: 2rem;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
